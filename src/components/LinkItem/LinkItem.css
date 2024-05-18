@@ -13,4 +13,5 @@
     width: 100%;
     font-size: 18px;
     font-weight: bold;
+    transition: all 0.3s;
 }

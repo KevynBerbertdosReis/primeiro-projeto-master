@@ -3,7 +3,7 @@ import AdminMenu from '@/components/Admin/AdminMenu';
 
 export default function Admin({ children }) {
     return (
-        <div className='container'>
+        <div className='container mt-5'>
             <div className='row'>
                 <div className="col-3">
                     <AdminMenu />

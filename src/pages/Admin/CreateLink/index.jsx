@@ -1,11 +1,12 @@
 
 import Admin from "@/pages/Admin";
-import Form from '@/components/Form';
+import CreateLinkForm from '@/components/Admin/CreateLinkForm';
 
 export default function CreateLink() {
     return ( 
         <Admin>
-            <Form />
+            <h2>Criar link</h2>
+            <CreateLinkForm />
         </Admin>
     );
 } 
